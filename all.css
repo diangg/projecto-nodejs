@@ -34,6 +34,22 @@ main h1{
 
 
 
+.comando{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.635);
+}
+
+.comando .comando-texto{
+    padding:19px !important;
+    text-align: center;
+}
+
+
+
 
 
 
