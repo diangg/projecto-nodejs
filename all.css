@@ -40,12 +40,26 @@ main h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.635);
+    background-color: rgba(128, 128, 128, 0.425);
+    border-radius: 5px;
+}
+
+.comando-1{
+    height: 100px;
+    justify-content: start !important;
+}
+
+.comando-1 .comando-texto{
+    text-align: left;
 }
 
 .comando .comando-texto{
     padding:19px !important;
     text-align: center;
+}
+
+.comando pre{
+
 }
 
 

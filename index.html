@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
         <div class="container-fluid">
-            <a href="" class="navbar-brand"><img src="./img/D.svg" alt="" width="50px"><span><em>Diang</em></span></a>
+            <a href="" class="navbar-brand"><img src="./img/D.svg" alt="" width="50px"><span><em> iang</em></span></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links">
                 <span class="navbar-toggler-icon"></span>
@@ -122,12 +122,62 @@
             Iremos utilizar um livro chamado <strong>Express</strong>, que nos permite colocar a nossa aplicação web nos navegadores dos nossos computadores.
         </p>
         
-        <p>Para instalar o Express, usamos seguinte comando comando:</p>
+        <p>Para instalar o Express, usamos seguinte comando comando no terminal do Visual Studio:</p>
 
         <div class="container-fluid d-flex justify-content-center">
             <div class="comando">
                 <span class="comando-texto">npm install express --save</span>
             </div>
+        </div>
+
+        <p>
+            Para usar o Express no nosso arquivo app.js, usamos a função require(). Criamos uma constante que recebe o require("express")
+        </p>
+
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="comando">
+                <span class="comando-texto">const meu_express = require("express")</span>
+            </div>
+        </div>
+
+        <p>
+           Depois de receber o require("express"), a constante meu_express torna- se uma função. Esta será utilizada numa outra constante, a app.
+        </p>
+
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="comando">
+                <span class="comando-texto">const app = meu_express()</span>
+            </div>
+        </div>
+
+        <p>No Visual Studio Code, teríamos:</p>
+
+        <div class="container-fluid d-flex justify-content-center">
+            <img src="./img/codigo1.png" alt="" width="450px">
+        </div>
+        <br>
+        <p>
+            No final do arquivo app.js, dizemos em que url o nosso aplicativo vai rodar através do método/função <strong>listen()</strong>. Dentro do parênteses informamos o número da porta(8080,8081,...) e uma função em que escrevemos a mensagem que será exibida quando o aplicativo estiver no ar
+        </p>
+
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="comando comando-1">
+                <span class="comando-texto">
+                    app.listen(8081 ,function(){
+                        <br>
+                        console.log("Aplicacao rodando no url https:/localhost8081")
+                        <br>
+                })
+                </span>
+            </div>
+        </div>
+
+        <p>
+            No Visual Studio Code teríamos:
+        </p>
+
+        <div class="container-fluid d-flex justify-content-center">
+            <img src="./img/codigo2.png" alt="" width="450px">
         </div>
 
     </main>
