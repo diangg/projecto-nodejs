@@ -59,7 +59,7 @@ main h1{
 }
 
 footer{
-    height: auto;
+    height: 15vh;
     background-color: rgba(0, 102, 255, 0.671);
     display: flex !important;
     justify-content: space-between!important;
