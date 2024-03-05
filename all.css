@@ -58,10 +58,22 @@ main h1{
     text-align: center;
 }
 
-.comando pre{
-
+footer{
+    height: 100px;
+    background-color: rgba(0, 102, 255, 0.712);
+    display: flex !important;
+    justify-content: space-between!important;
 }
 
+footer .nav{
+    display: flex !important;
+    gap:2rem !important;
+}
+
+footer a, footer li{
+    color:white;
+    text-decoration: none !important;
+}
 
 
 
