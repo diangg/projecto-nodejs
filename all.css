@@ -62,7 +62,7 @@ footer{
     height: 15vh;
     background-color: rgba(0, 102, 255, 0.671);
     display: flex !important;
-    justify-content: space-between!important;
+    justify-content: space-around!important;
 }
 
 footer .nav{
