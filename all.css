@@ -68,6 +68,7 @@ footer{
 footer .nav{
     display: flex !important;
     gap:2rem !important;
+    flex-wrap: wrap !important;
 }
 
 footer a, footer li{
